@@ -11,6 +11,7 @@ for (let i = 0; i < args.length; i++) {
    if (action === "add") {
         let val = args[i+1];
         let data = read_file(val)
+        console.log(data)
    } else if (action === "update"){
 
    }else if (action === "delete"){
@@ -19,6 +20,7 @@ for (let i = 0; i < args.length; i++) {
     
    } else {
         console.log("error")
+        
    }
     
 }
